@@ -26,9 +26,10 @@ I also use the tool pgAdmin to create the db objects and to do the testing in th
 
 ## Deployment
 ### Prerequisite
-1) [Postgresql](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) <= 12.0 is installed
-2) An account is available [ElephanSQL](https://www.elephantsql.com)
-3) [An instance](https://www.elephantsql.com/plans.html) of Postgresql with Free plan should be created. 
+1) You have to install psql tool on your PC. You can install [Postgresql](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) 12.0 to have it
+2) You have to create an account in SaaS [ElephanSQL](https://www.elephantsql.com)
+3) You have to create an instance with the free plan (Tiny Turle) [An instance](https://www.elephantsql.com/plans.html) of PostgreSql with the version PostgreSQL 11(or higher). The version 11.x.y is available in the Region US-East-1 (Northen Virginia)
+
 ### Create environment variable
 1) Add posgresql into PATH environment variable
 <code>
@@ -39,7 +40,7 @@ set POSTPRESQL = C:\projets\pgsql\bin
 set PATH=%PATH%;%POSTPRESQL%
 </code>
 
-### Execute DLL file 
+### Execute DDL file 
 1) Clone the project and uncompress
 - git clone
 -  Unzip and go to the root folder and do the following steps:
