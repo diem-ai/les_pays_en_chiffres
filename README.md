@@ -1,7 +1,6 @@
 # Les pays en chiffres
 
 ## Description
-
 The project is based on countries population dataset. The dataset is provided in CSV file.
 
 The project requirements and objectives include:
@@ -13,10 +12,9 @@ The project requirements and objectives include:
 
 
 ### Notes on support for stored procedure in ElephantSQL free plan
-PostgreSql support for procedure start at version 11 of PostgreSql.
+PostgreSql support for procedure started at version 11 of PostgreSql.
 With SaaS ElephantSQL free plan (Tiny Turtle), it is not possible to select PostgreSql version.
 In the creation of the db instance, there is the choice of the cloud Region. Some Regions only have the version 9.x.y. I had to try out many Regions to obtain the version 11.x.y on US-East-1 (Northen Virginia) in AWS cloud.
-
 
 ### Notes on tools
 To test my DDL code/script on the remote db in ElephantSQL, I use the tool PSQL (psql). The tool is pacgaged with PostgreSql. To have it I installe PostgreSQL (12.0) on my PC. The PostgreSql website is here https://www.enterprisedb.com/downloads/postgres-postgresql-downloads.
