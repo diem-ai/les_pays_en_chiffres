@@ -57,8 +57,8 @@ I also use the tool pgAdmin to create the db objects and to do the testing in th
 Note: you have to add posgresql into PATH environment variable</br>
 <code>
 set POSTPRESQL = Postgresql installation path
-</code> 
-for example, I installed postgresql in C:\projets</br>
+</code></br>
+for example, I installed postgresql in C:\projets\</br>
 <code>
 set POSTPRESQL = C:\projets\pgsql\bin</br> 
 </code>
