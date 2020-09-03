@@ -39,6 +39,7 @@ I also use the tool pgAdmin to create the db objects and to do the testing in th
 
 ### Prerequisite
 1) You have to install psql tool on your PC. You can install [PostgreSql](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) 12.0 to have it
+
 Note: you have to add posgresql into PATH environment variable
 <code>
 set POSTPRESQL = C:\projets\pgsql\bin
