@@ -44,7 +44,7 @@ Note: you have to add posgresql into PATH environment variable
 <code>
 set POSTPRESQL = C:\projets\pgsql\bin
 </code>
-
+</br>
 <code>
 set PATH=%PATH%;%POSTPRESQL%
 </code>
