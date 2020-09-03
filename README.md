@@ -8,7 +8,7 @@
 3. [Deployment](#deployment)</br>
   3.1 [Prerequisite](#prerequisite)</br>
   3.2 [Execute the DDL file](#execute-the-ddl-file)</br>
-  3.3 [Environment Issues](#environment_issues)</br>
+  3.3 [Environment Issues](#environment-issues)</br>
 4. [Some tests](#some_tests)
 
 
