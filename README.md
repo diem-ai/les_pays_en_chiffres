@@ -32,7 +32,9 @@ I also use the tool pgAdmin to create the db objects and to do the testing in th
 
 - a function/procedure returning the countries grouped by 4 dentsity values : function ***group_country_by_density()***
 
-- a trigger updating the country record creation date on INSERT : trigger ***trigg_update_creation_dt***
+- a function updating the current datetime on the current record : function ***trigg_funct_update_creation_dt()***
+
+- a trigger updating the country record creation date on INSERT : trigger ***trigg_update_creation_dt()***
 
 
 ## Deployment
