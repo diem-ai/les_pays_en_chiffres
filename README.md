@@ -17,7 +17,7 @@ With SaaS ElephantSQL free plan (Tiny Turtle), it is not possible to select Post
 In the creation of the db instance, there is the choice of the cloud Region. Some Regions only have the version 9.x.y. I had to try out many Regions to obtain the version 11.x.y on US-East-1 (Northen Virginia) in AWS cloud.
 
 ### Notes on tools
-To test my DDL code/script on the remote db in ElephantSQL, I use the tool PSQL (psql). The tool is pacgaged with PostgreSql. To have it I installe PostgreSQL (12.0) on my PC. The PostgreSql website is here https://www.enterprisedb.com/downloads/postgres-postgresql-downloads.
+To test my DDL code/script on the remote db in ElephantSQL, I use the tool PSQL (psql). The tool is packaged with PostgreSql. To have it I installed PostgreSQL (12.0) on my PC. The PostgreSql website is here https://www.enterprisedb.com/downloads/postgres-postgresql-downloads.
 
 I also use the tool pgAdmin to create the db objects and to do the testing in the development phase. The pgAdmin website is here https://www.pgadmin.org/.
 
