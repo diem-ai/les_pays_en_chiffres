@@ -9,7 +9,7 @@
   3.1 [Prerequisite](#prerequisite)</br>
   3.2 [Execute the DDL file](#execute-the-ddl-file)</br>
   3.3 [Issues](#issues)</br>
-4. [Some tests](#some tests)
+4. [Some tests](#some_tests)
 
 
 
@@ -57,7 +57,9 @@ I also use the tool pgAdmin to create the db objects and to do the testing in th
 
 Note: you have to add posgresql into PATH environment variable</br>
 <code>
-set POSTPRESQL = C:\projets\pgsql\bin
+set POSTPRESQL = Postgresql installation path </br>
+for example, I installed postgresql in C:\projets </br>
+set POSTPRESQL = C:\projets\pgsql\bin </br> 
 </code>
 </br>
 <code>
