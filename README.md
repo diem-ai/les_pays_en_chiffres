@@ -21,7 +21,7 @@ To test my DDL code/script on the remote db in ElephantSQL, I use the tool PSQL 
 I also use the tool pgAdmin to create the db objects and to do the testing in the development phase. The pgAdmin website is here https://www.pgadmin.org/.
 
 
-## Livrables
+## Deliverables
 - the documentation : this ***readme*** file
 
 - the DDL file : the file ***country_stats_dll.sql***
@@ -56,16 +56,16 @@ set PATH=%PATH%;%POSTPRESQL%
 
 ### Execute the DDL file 
 1) Clone the project and uncompress
-- git clone
+- git clone https://github.com/diem-ai/les_pays_en_chiffres.git
 -  Unzip and go to the root folder and do the following steps:
 1) Connect to your posgresql instance on Elephantsql using psql on windows console
 <code>
-> psql postgres://<username>:wi_CMm1f7QCFAdKPEyP4V1d-SSHwgfiJ@kandula.db.elephantsql.com:5432/<database name>
+> psql postgres://user_name:pass_word@kandula.db.elephantsql.com:5432/database_name
 </code>
 <br/>
 2) Execute the DDL file to create tables/functions/procedures and import the data from csv file
 <code>
-psql \i country_stats_dll.sql
+psql \i country_stats_ddl.sql
 </code>
 
 ### Issues
