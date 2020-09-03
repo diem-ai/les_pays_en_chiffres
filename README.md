@@ -97,7 +97,8 @@ psql \i country_stats_ddl.sql
 2) Acces permission denied to database with PgAddmin</br>
 <b>Solution</b>
 - Add the below line in <code>pg_hba.conf</code> file:</br>
-host    all             all             .db.elephantsql.com            trust
+<code># local         DATABASE  USER  METHOD  [OPTIONS]</code></br>
+<code>  host              all   all             .db.elephantsql.com            trust</code>
 - It authorizes all connections from db.elephantsql.com address
 
 ## Some tests
