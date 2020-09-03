@@ -87,10 +87,12 @@ host    all             all             .db.elephantsql.com            trust
 
 ## Some tests
 1. List top 5 first countries in the database</br>
-
+![](/images/test_select_top_first_5_rows.png)
 2. Find a country existing in the database</br>
-
+![](/images/test_func_get_country.png)
 3. Add a new country with random data</br>
-
+![](images/test_func_add_country.png)
+4. Group the countries by their population density </br>
+![](images/test_group_countries_by_density.png)
 
 
