@@ -31,7 +31,7 @@ go to the root folder and do the following steps:
 
 ### Issues
 <i>Some issues you may encounter while using psql on console/terminal or pgAdmin in Windows 10</i>
-1) The incompatibility of encoding between posgres and windows. You can find full explanation on (stackoverflow)[https://stackoverflow.com/questions/20794035/postgresql-warning-console-code-page-437-differs-from-windows-code-page-125]
+1) The incompatibility of encoding between posgres and windows. You can find full explanation on [stackoverflow](https://stackoverflow.com/questions/20794035/postgresql-warning-console-code-page-437-differs-from-windows-code-page-125)
 <b>Solution:</b> :
 - Start -> Run -> regedit
 - Go to [HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor]
