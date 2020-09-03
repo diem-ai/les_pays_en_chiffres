@@ -58,12 +58,12 @@ set PATH=%PATH%;%POSTPRESQL%
 1) Clone the project and uncompress
 - git clone https://github.com/diem-ai/les_pays_en_chiffres.git
 -  Unzip and go to the root folder and do the following steps:
-1) Connect to your posgresql instance on Elephantsql using psql on windows console
+1) Connect to your posgresql instance on Elephantsql using psql on windows console</br>
 <code>
-> psql postgres://user_name:pass_word@kandula.db.elephantsql.com:5432/database_name
+>psql postgres://user_name:pass_word@kandula.db.elephantsql.com:5432/database_name
 </code>
 <br/>
-2) Execute the DDL file to create tables/functions/procedures and import the data from csv file
+2) Execute the DDL file to create tables/functions/procedures and import the data from csv file</br>
 <code>
 psql \i country_stats_ddl.sql
 </code>
@@ -78,13 +78,17 @@ psql \i country_stats_ddl.sql
 - Then reopen the console/terminal
 2) Acces permission denied to database with PgAddmin
 <b>Solution</b>
-- Add the below line in <code>pg_hba.conf</code> file:
+- Add the below line in <code>pg_hba.conf</code> file:</br>
 host    all             all             .db.elephantsql.com            trust
 - It authorizes all connections from db.elephantsql.com address
 
 
 ## Some tests
-1. Find a country existing in the database
+1. List top 5 first countries in the database</br>
+
+2. Find a country existing in the database</br>
+
+3. Add a new country with random data</br>
 
 
 
