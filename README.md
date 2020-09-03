@@ -1,5 +1,4 @@
-# country_stats
-
+# Les pays en chiffres
 
 ## Description
 
@@ -13,17 +12,20 @@
 <code>
 > set POSTPRESQL = C:\projets\pgsql\bin
 </code>
+<br/>
 <code>
 > set PATH=%PATH%;%POSTPRESQL%
 </code>
+<br/>
 ### Execute DLL file 
 1) Clone the project and uncompress
-git clone
-go to the root folder and do the following steps:
+- git clone
+-  Unzip and go to the root folder and do the following steps:
 1) Connect to your posgresql instance on Elephantsql using psql on windows console
 <code>
 > psql postgres://<username>:wi_CMm1f7QCFAdKPEyP4V1d-SSHwgfiJ@kandula.db.elephantsql.com:5432/<database name>
 </code>
+<br/>
 2) Execute the DLL file to create tables/functions/procedures and import the data from csv file
 <code>
 > psql \i country_stats_dll.sql
