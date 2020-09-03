@@ -28,7 +28,7 @@ I also use the tool pgAdmin to create the db objects and to do the testing in th
 ### Prerequisite
 1) You have to install psql tool on your PC. You can install [Postgresql](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) 12.0 to have it
 2) You have to create an account in SaaS [ElephanSQL](https://www.elephantsql.com)
-3) You have to create an instance with the free plan (Tiny Turle) [An instance](https://www.elephantsql.com/plans.html) of PostgreSql with the version PostgreSQL 11(or higher). The version 11.x.y is available in the Region US-East-1 (Northen Virginia)
+3) You have to create an [An instance](https://www.elephantsql.com/plans.html) with the free plan (Tiny Turle) of PostgreSql with the version PostgreSQL 11(or higher). The version 11.x.y is available in the Region US-East-1 (Northen Virginia)
 
 ### Create environment variable
 1) Add posgresql into PATH environment variable
