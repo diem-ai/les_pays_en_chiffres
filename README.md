@@ -22,8 +22,7 @@ I also use the tool pgAdmin to create the db objects and to do the testing in th
 
 
 ## Deliverables
-- the documentation : 
--- this ***readme*** file
+- the documentation : this ***readme*** file
 
 - the DDL file : the file ***country_stats_dll.sql***
 
@@ -77,7 +76,7 @@ psql \i country_stats_ddl.sql
 - Go to [HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor]
 - Add new string value named "Autorun" with value "chcp 1252"
 - Then reopen the console/terminal
-2) Acces permission denied to database with PgAddmin
+2) Acces permission denied to database with PgAddmin</br>
 <b>Solution</b>
 - Add the below line in <code>pg_hba.conf</code> file:</br>
 host    all             all             .db.elephantsql.com            trust
