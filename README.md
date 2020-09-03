@@ -33,12 +33,10 @@ I also use the tool pgAdmin to create the db objects and to do the testing in th
 
 ## Deployment
 ### Prerequisite
-1) You have to install psql tool on your PC. You can install [Postgresql](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) 12.0 to have it
-2) You have to create an account in SaaS [ElephanSQL](https://www.elephantsql.com)
-3) You have to create [an instance](https://www.elephantsql.com/plans.html) with the free plan (Tiny Turle) of PostgreSql with the version PostgreSQL 11 (or higher). The version 11.x.y is available in the Region US-East-1 (Northen Virginia)
+1) You have to install psql tool on your PC. You can install [PostgreSql](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) 12.0 to have it
 
-### Create environment variable
-1) Add posgresql into PATH environment variable
+#### Create environment variable for PostgreSql
+Add posgresql into PATH environment variable
 <code>
 set POSTPRESQL = C:\projets\pgsql\bin
 </code>
@@ -46,6 +44,11 @@ set POSTPRESQL = C:\projets\pgsql\bin
 <code>
 set PATH=%PATH%;%POSTPRESQL%
 </code>
+
+2) You have to create an account in SaaS [ElephanSQL](https://www.elephantsql.com)
+3) You have to create [an instance](https://www.elephantsql.com/plans.html) with the free plan (Tiny Turle) of PostgreSql with the version PostgreSQL 11 (or higher). The version 11.x.y is available in the Region US-East-1 (Northen Virginia)
+
+
 
 ### Execute DDL file 
 1) Clone the project and uncompress
