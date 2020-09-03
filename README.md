@@ -37,7 +37,7 @@ I also use the tool pgAdmin to create the db objects and to do the testing in th
 ## Deliverables
 - the documentation : this ***readme*** file
 
-- the DDL file : the file ***country_stats_ddl.sql***
+- the DDL file : the file ***country_stats_dll.sql***
 
 - a country search function returning a TABLE : function ***get_country_stats(p_country varchar)***
 
@@ -54,12 +54,13 @@ I also use the tool pgAdmin to create the db objects and to do the testing in th
 
 ### Prerequisite
 1) You have to install psql tool on your PC. You can install [PostgreSql](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) 12.0 to have it
-
 Note: you have to add posgresql into PATH environment variable</br>
 <code>
-set POSTPRESQL = Postgresql installation path </br>
-for example, I installed postgresql in C:\projets </br>
-set POSTPRESQL = C:\projets\pgsql\bin </br> 
+set POSTPRESQL = Postgresql installation path
+</code> 
+for example, I installed postgresql in C:\projets</br>
+<code>
+set POSTPRESQL = C:\projets\pgsql\bin</br> 
 </code>
 </br>
 <code>
