@@ -20,6 +20,9 @@ To test my DDL code/script on the remote db in ElephantSQL, I use the tool PSQL 
 
 I also use the tool pgAdmin to create the db objects and to do the testing in the development phase. The pgAdmin website is here https://www.pgadmin.org/.
 
+### Note on the db schema
+This is a school project. So i believe it's acceptable to use the existing default ***public*** schema. All the project db objects are created in the ***public*** schema.
+
 
 ## Deliverables
 - the documentation : this ***readme*** file
@@ -58,12 +61,12 @@ set PATH=%PATH%;%POSTPRESQL%
 1) Clone the project and uncompress
 - git clone https://github.com/diem-ai/les_pays_en_chiffres.git
 -  Unzip and go to the root folder and do the following steps:
-1) Connect to your posgresql instance on Elephantsql using psql on windows console</br>
+1) Connect to your posgresql instance on Elephantsql using psql on windows console
 <code>
->psql postgres://user_name:pass_word@kandula.db.elephantsql.com:5432/database_name
+> psql postgres://user_name:pass_word@kandula.db.elephantsql.com:5432/database_name
 </code>
 <br/>
-2) Execute the DDL file to create tables/functions/procedures and import the data from csv file</br>
+2) Execute the DDL file to create tables/functions/procedures and import the data from csv file
 <code>
 psql \i country_stats_ddl.sql
 </code>
@@ -78,17 +81,13 @@ psql \i country_stats_ddl.sql
 - Then reopen the console/terminal
 2) Acces permission denied to database with PgAddmin
 <b>Solution</b>
-- Add the below line in <code>pg_hba.conf</code> file:</br>
+- Add the below line in <code>pg_hba.conf</code> file:
 host    all             all             .db.elephantsql.com            trust
 - It authorizes all connections from db.elephantsql.com address
 
 
 ## Some tests
-1. List top 5 first countries in the database</br>
-
-2. Find a country existing in the database</br>
-
-3. Add a new country with random data</br>
+1. Find a country existing in the database
 
 
 
