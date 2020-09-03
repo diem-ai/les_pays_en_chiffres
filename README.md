@@ -24,11 +24,11 @@ I also use the tool pgAdmin to create the db objects and to do the testing in th
 
 ## Livrables
 - the documentation : this ***readme*** file
-- the DDL file : the file **country_stats_dll.sql**
-- a country search function returning a TABLE : function **get_country_stats(p_country varchar)**
-- a procedure for adding new country : procedure **add_country(p_country character varying)**
-- a function/procedure returning the countries grouped by 4 dentsity values : function **group_country_by_density()**
-- a trigger updating the country record creation date on INSERT : trigger **trigg_update_creation_dt**
+- the DDL file : the file ***country_stats_dll.sql***
+- a country search function returning a TABLE : function ***get_country_stats(p_country varchar)***
+- a procedure for adding new country : procedure ***add_country(p_country character varying)***
+- a function/procedure returning the countries grouped by 4 dentsity values : function ***group_country_by_density()***
+- a trigger updating the country record creation date on INSERT : trigger ***trigg_update_creation_dt***
 
 
 ## Deployment
