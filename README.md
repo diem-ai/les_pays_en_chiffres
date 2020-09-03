@@ -8,7 +8,7 @@
 3. [Deployment](#deployment)</br>
   3.1 [Prerequisite](#prerequisite)</br>
   3.2 [Execute the DDL file](#execute-the-ddl-file)</br>
-  3.3 [Issues](#issues)</br>
+  3.3 [Environment Issues](#environment_issues)</br>
 4. [Some tests](#some_tests)
 
 
@@ -86,7 +86,7 @@ psql postgres://user_name:pass_word@kandula.db.elephantsql.com:5432/database_nam
 psql \i country_stats_ddl.sql
 </code>
 
-### Issues
+### Environment Issues
 <i>Some issues you may encounter while using psql on console/terminal or pgAdmin in Windows 10</i>
 1) The incompatibility of encoding between posgres and windows. You can find full explanation on [stackoverflow](https://stackoverflow.com/questions/20794035/postgresql-warning-console-code-page-437-differs-from-windows-code-page-125)</br>
 <b>Solution:</b> :
