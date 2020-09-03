@@ -10,7 +10,6 @@ The project requirements and objectives include:
 - a trigger updating the country record creation date on INSERT
 - a function/procedure returning the countries grouped by 4 dentsity values
 
-
 ### Notes on support for stored procedure in ElephantSQL free plan
 PostgreSql support for procedure started at version 11 of PostgreSql.
 With SaaS ElephantSQL free plan (Tiny Turtle), it is not possible to select PostgreSql version.
@@ -32,11 +31,10 @@ I also use the tool pgAdmin to create the db objects and to do the testing in th
 
 
 ## Deployment
+
 ### Prerequisite
 1) You have to install psql tool on your PC. You can install [PostgreSql](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) 12.0 to have it
-
-#### Create environment variable for PostgreSql
-Add posgresql into PATH environment variable
+Note: you have to add posgresql into PATH environment variable
 <code>
 set POSTPRESQL = C:\projets\pgsql\bin
 </code>
@@ -46,11 +44,12 @@ set PATH=%PATH%;%POSTPRESQL%
 </code>
 
 2) You have to create an account in SaaS [ElephanSQL](https://www.elephantsql.com)
+
 3) You have to create [an instance](https://www.elephantsql.com/plans.html) with the free plan (Tiny Turle) of PostgreSql with the version PostgreSQL 11 (or higher). The version 11.x.y is available in the Region US-East-1 (Northen Virginia)
 
 
 
-### Execute DDL file 
+### Execute the DDL file 
 1) Clone the project and uncompress
 - git clone
 -  Unzip and go to the root folder and do the following steps:
@@ -77,6 +76,7 @@ psql \i country_stats_dll.sql
 - Add the below line in <code>pg_hba.conf</code> file:
 host    all             all             .db.elephantsql.com            trust
 - It authorizes all connections from db.elephantsql.com address
+
 
 ## Some tests
 1. Find a country existing in the database
