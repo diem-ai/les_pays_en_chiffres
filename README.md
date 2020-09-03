@@ -1,10 +1,15 @@
 # Les pays en chiffres
 
 ## Table of content
-1. [Description](## Description)
-2. [Deliverables](## Deliverables)
-3. [Deployment](## Deployment)
-3. [Some tests](## Some tests)
+1. [Description](#description)</br>
+  1.2. [Notes on support for stored procedure in ElephantSQL free plan](#notes-on-support-for-stored-procedure-in-elephantsql-free-plan)</br>
+  1.3. [Notes on tools](#notes-on-tools)</br>
+2. [Deliverables](#deliverables)
+3. [Deployment](#deployment)</br>
+  3.1 [Prerequisite](#prerequisite)</br>
+  3.2 [Execute the DDL file](#execute-the-ddl-file)</br>
+  3.3 [Issues](#issues)</br>
+4. [Some tests](#some tests)
 
 
 
@@ -68,12 +73,12 @@ set PATH=%PATH%;%POSTPRESQL%
 1) Clone the project and uncompress
 - git clone https://github.com/diem-ai/les_pays_en_chiffres.git
 -  Unzip and go to the root folder and do the following steps:
-1) Connect to your posgresql instance on Elephantsql using psql on windows console</br>
+2) Connect to your posgresql instance on Elephantsql using psql on windows console</br>
 <code>
 psql postgres://user_name:pass_word@kandula.db.elephantsql.com:5432/database_name
 </code>
 <br/>
-2) Execute the DDL file to create tables/functions/procedures and import the data from csv file</br>
+3) Execute the DDL file to create tables/functions/procedures and import the data from csv file</br>
 <code>
 psql \i country_stats_ddl.sql
 </code>
@@ -91,7 +96,6 @@ psql \i country_stats_ddl.sql
 - Add the below line in <code>pg_hba.conf</code> file:</br>
 host    all             all             .db.elephantsql.com            trust
 - It authorizes all connections from db.elephantsql.com address
-
 
 ## Some tests
 1. List top 5 first countries in the database</br>
