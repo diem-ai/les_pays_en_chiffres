@@ -22,6 +22,15 @@ To test my DDL code/script on the remote db in ElephantSQL, I use the tool PSQL 
 I also use the tool pgAdmin to create the db objects and to do the testing in the development phase. The pgAdmin website is here https://www.pgadmin.org/.
 
 
+## Livrables
+- the documentation : this readme file
+- the DDL file : the file country_stats_dll.sql
+- a country search function returning a TABLE : function get_country_stats(p_country varchar)
+- a procedure for adding new country : procedure add_country(p_country character varying)
+- a function/procedure returning the countries grouped by 4 dentsity values : function group_country_by_density()
+- a trigger updating the country record creation date on INSERT : trigger trigg_update_creation_dt
+
+
 ## Deployment
 ### Prerequisite
 1) You have to install psql tool on your PC. You can install [Postgresql](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) 12.0 to have it
@@ -47,7 +56,7 @@ set PATH=%PATH%;%POSTPRESQL%
 > psql postgres://<username>:wi_CMm1f7QCFAdKPEyP4V1d-SSHwgfiJ@kandula.db.elephantsql.com:5432/<database name>
 </code>
 <br/>
-2) Execute the DLL file to create tables/functions/procedures and import the data from csv file
+2) Execute the DDL file to create tables/functions/procedures and import the data from csv file
 <code>
 psql \i country_stats_dll.sql
 </code>
