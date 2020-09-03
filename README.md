@@ -10,13 +10,13 @@
 ### Create environment variable
 1) Add posgresql into PATH environment variable
 <code>
-> set POSTPRESQL = C:\projets\pgsql\bin
+set POSTPRESQL = C:\projets\pgsql\bin
 </code>
 <br/>
 <code>
-> set PATH=%PATH%;%POSTPRESQL%
+set PATH=%PATH%;%POSTPRESQL%
 </code>
-<br/>
+
 ### Execute DLL file 
 1) Clone the project and uncompress
 - git clone
@@ -28,7 +28,7 @@
 <br/>
 2) Execute the DLL file to create tables/functions/procedures and import the data from csv file
 <code>
-> psql \i country_stats_dll.sql
+psql \i country_stats_dll.sql
 </code>
 
 ### Issues
