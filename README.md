@@ -22,7 +22,8 @@ I also use the tool pgAdmin to create the db objects and to do the testing in th
 
 
 ## Deliverables
-- the documentation : this ***readme*** file
+- the documentation : 
+-- this ***readme*** file
 
 - the DDL file : the file ***country_stats_dll.sql***
 
