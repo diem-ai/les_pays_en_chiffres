@@ -44,7 +44,7 @@ Note: you have to add posgresql into PATH environment variable
 <code>
 set POSTPRESQL = C:\projets\pgsql\bin
 </code>
-<br/>
+
 <code>
 set PATH=%PATH%;%POSTPRESQL%
 </code>
@@ -52,7 +52,6 @@ set PATH=%PATH%;%POSTPRESQL%
 2) You have to create an account in SaaS [ElephanSQL](https://www.elephantsql.com)
 
 3) You have to create [an instance](https://www.elephantsql.com/plans.html) with the free plan (Tiny Turle) of PostgreSql with the version PostgreSQL 11 (or higher). The version 11.x.y is available in the Region US-East-1 (Northen Virginia)
-
 
 
 ### Execute the DDL file 
